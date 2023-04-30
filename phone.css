@@ -19,7 +19,7 @@ margin-left: 74px; */
 #about{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 11em;
     width: auto;
     /* overflow: hidden; */
 }
@@ -27,7 +27,7 @@ margin-left: 74px; */
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    height: 300px;
+    height: 5em;
     width: auto;
 }
 #schedule{
@@ -35,13 +35,15 @@ margin-left: 74px; */
     flex-direction: column;
     margin-top: 60px;
     width: auto;
+    height: 15em;
     /* overflow: hidden; */
 }
 #contact{
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
     width: auto;
+    height: 15em;
+    margin-top: 36px
 }
 .para{
     width: auto;
@@ -55,6 +57,14 @@ margin-left: 74px; */
   text-shadow: 2px;
   word-spacing: 1px;
   padding-right: 10px;
+}
+.contact1{
+  color: white;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 0.75rem;
+  text-shadow: 2px;
+  word-spacing: 1px;
+  margin: 10px 0px 0px 6px;
 }
 .text{
     width: 120px;
@@ -80,7 +90,7 @@ margin-left: 74px; */
     clip-path: polygon(0% 0%, 58% 0%, 90% 100%, 42% 100%);
   }
   #para1{
-    margin-top: 2px;
+    /* margin-top: 2px; */
     padding: 8px;
     margin-left: -2px;
     height: 50px;
@@ -89,8 +99,7 @@ margin-left: 74px; */
     margin-left: -25px;
   }
   #full{
-    margin-top: 800px;
-    height: 1691px;
+    height: 54em;
     margin-left: -1px;
     background:url(best.jpg);
     background-position: center center;
